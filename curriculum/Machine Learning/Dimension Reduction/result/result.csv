@@ -1,0 +1,25 @@
+algorithm, dataset, K, accuracy
+PCA(centralize) sonar, k = 10, 0.6019417475728155
+PCA(centralize), sonar, k = 20, 0.6504854368932039
+PCA(centralize), sonar, k = 30, 0.6504854368932039
+PCA(centralize), splice, k = 10, 0.7567816091954023
+PCA(centralize), splice, k = 20, 0.7632183908045977
+PCA(centralize), splice, k = 30, 0.7360919540229885
+PCA(norm), sonar, k = 10, 0.6116504854368932
+PCA(norm), sonar, k = 20, 0.6213592233009708
+PCA(norm), sonar, k = 30, 0.6019417475728155
+PCA(norm), splice, k = 10, 0.7540229885057471
+PCA(norm), splice, k = 20, 0.7388505747126437
+PCA(norm), splice, k = 30, 0.7236781609195402
+SVD, sonar, k = 10, 0.5922330097087378
+SVD, sonar, k = 20, 0.5825242718446602
+SVD, sonar, k = 30, 0.5631067961165048
+SVD, splice, k = 10, 0.7586206896551724
+SVD, splice, k = 20, 0.7641379310344828
+SVD, splice, k = 30, 0.7480459770114942
+ISOMAP, sonar(6-NN), k = 10, 0.4174757281553398
+ISOMAP, sonar(6-NN), k = 20, 0.4174757281553398
+ISOMAP, sonar(6-NN), k = 30, 0.4368932038834951
+ISOMAP, splice(4-NN), k = 10, 0.6809195402298851
+ISOMAP, splice(4-NN), k = 20, 0.6901149425287356
+ISOMAP, splice(4-NN), k = 30, 0.6919540229885057
